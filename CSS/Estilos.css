@@ -247,5 +247,6 @@ footer .redes-sociales .facebook:hover {
     }
     footer .redes-sociales .contenedor {
         flex-wrap: wrap;
+        padding: 20px 0;
     }
 }
