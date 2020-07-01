@@ -119,33 +119,26 @@ header .contenedor-texto .texto .profesion {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
-}
-.main .trabajos .contenedor-trabajos .trabajo {
-    width: 23%;
-    margin-bottom: 40px;
-}
-.main .trabajos .contenedor-trabajos .trabajo .thumb {
-    margin: 100%;
-    margin-bottom: 10px;
-}
-.main .trabajos .contenedor-trabajos .trabajo .thumb img {
-    width: 100%;
-    vertical-align: top;
-    border-radius: 3px;
-}
-.main .trabajos .contenedor-trabajos .trabajo .descripcion {
-    text-align: center;
-}
-.main .trabajos .contenedor-trabajos .trabajo .descripcion .nombre {
-    font-size: 300;
-    color: #3895ea;
-    margin-bottom: 10px;
-}
-.main .trabajos .contenedor-trabajos .trabajo .descripcion .categoria {
-    font-size: 14px;
-    color: #636363;
-}
+    justify-content: space-between; }
+    .main .trabajos .contenedor-trabajos .trabajo {
+      width: 30%;
+      margin-bottom: 40px; }
+      .main .trabajos .contenedor-trabajos .trabajo .thumb {
+        width: 100%;
+        margin-bottom: 10px; }
+        .main .trabajos .contenedor-trabajos .trabajo .thumb img {
+          vertical-align: top;
+          width: 100%;
+          border-radius: 3px; }
+      .main .trabajos .contenedor-trabajos .trabajo .descripcion {
+        text-align: center; }
+        .main .trabajos .contenedor-trabajos .trabajo .descripcion .nombre {
+          font-weight: 700;
+          color: #3895ea;
+          margin-bottom: 10px; }
+        .main .trabajos .contenedor-trabajos .trabajo .descripcion .categoria {
+          font-size: 14px;
+          color: #636363; }
 footer .contacto {
     padding: 60px 0;
 }
@@ -212,15 +205,14 @@ footer .redes-sociales .contenedor {
     justify-content: center;
 }
 footer .redes-sociales a {
-    color: #fff;
     text-align: center;
     width: 100px;
     display: block;
     padding: 15px 0;
-    border-radius: 3px;
-    font-size: 30px;
-    background: #ccc;
     margin: 0 20px;
+}
+footer .redes-sociales a img {
+    width: 100%;
 }
 footer .redes-sociales .twitter:hover {
     background: #1da1f2;
